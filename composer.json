@@ -1,6 +1,6 @@
 {
-  "name": "simplon/core",
-  "description": "Strongly opinionated MVC framework for rapid development",
+  "name": "gimmenetwork/simplon_core",
+  "description": "[FORK] Strongly opinionated MVC framework for rapid development",
   "homepage": "https://github.com/fightbulc/simplon_core",
   "type": "library",
   "keywords": [
@@ -26,16 +26,43 @@
       "role": "developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_locale"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_form"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_url"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_template"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_device"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_helper"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_interfaces"
+    },{
+      "type": "vcs",
+      "url": "https://github.com/gimmenetwork/simplon_http"
+    }
+  ],
   "require": {
     "php": ">=7.2",
-    "simplon/locale": "^0.4",
-    "simplon/form": "^2.5",
-    "simplon/url": "^0.6",
-    "simplon/template": "^0.8",
-    "simplon/device": "^0.3",
-    "simplon/helper": "^1.0",
-    "simplon/interfaces": "^0.0",
-    "simplon/http": "^0.0",
+    "gimmenetwork/simplon_locale": "^0.4",
+    "gimmenetwork/simplon_form": "^2.5",
+    "gimmenetwork/simplon_url": "^0.6",
+    "gimmenetwork/simplon_template": "^0.8",
+    "gimmenetwork/simplon_device": "^0.3",
+    "gimmenetwork/simplon_helper": "^1.0",
+    "gimmenetwork/simplon_interfaces": "^0.0",
+    "gimmenetwork/simplon_http": "^0.0",
     "relay/relay": "^1.1",
     "filp/whoops": "^2.1",
     "mnapoli/silly": "1.6.*",
