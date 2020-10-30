@@ -79,5 +79,8 @@
   },
   "bin": [
     "bin/core"
-  ]
+  ],
+  "replace": {
+    "simplon/core": "0.9.*"
+  }
 }
