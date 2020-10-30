@@ -56,7 +56,6 @@
   "require": {
     "php": ">=7.2",
     "gimmenetwork/simplon_locale": "^0.4",
-    "gimmenetwork/simplon_form": "^2.5",
     "gimmenetwork/simplon_url": "^0.6",
     "gimmenetwork/simplon_template": "^0.8",
     "gimmenetwork/simplon_device": "^0.3",
